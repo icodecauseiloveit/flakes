@@ -8,7 +8,7 @@ This command must be executed from root user
 
 ```su root```
 
-```echo "gary ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers```
+```echo "user_name_to_enable ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers```
 
 
 ## Installing Nix
